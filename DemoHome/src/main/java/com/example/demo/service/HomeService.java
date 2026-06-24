@@ -8,5 +8,7 @@ public interface HomeService {
 	
 	void add(Home s);
 	List<Home>display();
+	
+	void addAll(List<Home>s);
 
 }

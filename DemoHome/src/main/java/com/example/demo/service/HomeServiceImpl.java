@@ -29,4 +29,12 @@ public class HomeServiceImpl implements HomeService {
 		return sr.findAll();
 	}
 
+	@Override
+	public void addAll(List<Home> s) {
+		// TODO Auto-generated method stub
+		
+		sr.saveAll(s);
+		
+	}
+
 }
